@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 5em;
+  width: 50%;
+  margin: auto;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#cont{
+  width: 70%;
+  margin: auto;
+}
