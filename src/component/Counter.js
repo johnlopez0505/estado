@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Pie from "./Pie";
+import MyHeader from "./MyHeader";
 
 const Counter = () => {
     const [counter, setCounter] = useState(0);
@@ -27,6 +28,8 @@ const Counter = () => {
                 <button style={{marginLeft:"20px"}} onClick={()=>{setCounter(counter > min ? counter -1 : counter);}}>Decrementar</button>
                 <button style={{marginLeft:"20px"}} onClick={()=>{setCounter(0);}}>Resetear</button>
                 <Pie counter={counter}/>
+
+                <MyHeader/>
             </div>
         
         </>
